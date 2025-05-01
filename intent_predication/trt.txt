@@ -1,0 +1,19 @@
+✅ Full Response Advantage
+Transformer-based models — DistilBERT, DeBERTa, and ModernBART — when trained on entire response messages from meetings, achieved an impressive F1 score of 84%.
+
+These full responses capture discourse-level cues such as speaker intent, follow-up context, and conversational dependencies, leading to more accurate predictions.
+
+⚠️ Single Sentence Limitation
+Training the same models on isolated single sentences resulted in a noticeably lower F1 score of 70%.
+
+Without surrounding dialogue, these models struggled to resolve ambiguities, disambiguate references, and capture conversational flow.
+
+🔑 Context is Key
+The 14% performance gap clearly demonstrates that contextual richness plays a pivotal role in semantic understanding and downstream decision-making.
+
+This highlights the need to go beyond sentence-level modeling and leverage conversation-aware architectures for tasks like meeting summarization, intent classification, and action item extraction.
+
+💡 Implications
+For real-world meeting intelligence systems, investing in context-preserving data pipelines and models that process dialogue history holistically can yield significant accuracy improvements.
+
+Future work should also explore how context windows, speaker turns, and temporal sequencing contribute to deeper understanding.
